@@ -36,9 +36,10 @@ body {
 .head-logo h2 {
   font-family: "Jokerman";
   font-weight: 400;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 45px;
   color: #000000;
+  margin: 0;
 }
 
 .head-menu {
@@ -65,6 +66,10 @@ body {
   margin: 0 auto;
   width: 1280px;
   height: 670px;
+}
+
+.fon {
+  border-top: 5px solid rgb(14, 107, 45);
 }
 
 #fon-1 {
@@ -100,4 +105,91 @@ body {
   height: 540px;
   border-radius: 40px;
   background: rgba(255, 255, 255, 0.5);
+}
+
+.cont-h-cont {
+  width: 430px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cont-h-cont h3 {
+  font-family: "Comic Sans MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 49px;
+  letter-spacing: 0.4em;
+  color: #000000;
+}
+
+.cont-list {
+  border-top: 5px solid #000000;
+}
+
+.src-h-text {
+  width: 640px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.src-h-text h3 {
+  font-family: "Comic Sans MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 49px;
+  letter-spacing: 0.9em;
+  color: #000000;
+}
+
+#src-screen {
+  width: 600px;
+  height: 430px;
+  margin: 0 20px 40px;
+  border-width: 4px 1px 1px 1px;
+  border-style: solid;
+  border-color: #000000;
+}
+
+.list-obj {
+  display: flex;
+  width: 410px;
+  height: 75px;
+  margin: 10px 10px 0px;
+}
+
+.list-obj-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+}
+.list-obj-img img {
+  width: 70px;
+  height: 70px;
+}
+
+.list-obj-h {
+  display: flex;
+  height: auto;
+  width: auto;
+  align-items: center;
+  margin: 0 auto;
+}
+.list-obj-h h4 {
+  font-family: "Comic Sans MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.5em;
+  font-variant: small-caps;
+  margin: 0;
 }
