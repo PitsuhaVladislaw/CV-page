@@ -1,0 +1,103 @@
+* {
+  border: 1px solid red;
+}
+
+body {
+  margin: 0;
+}
+
+.header-fon {
+  background: rgb(14, 107, 45);
+  width: auto;
+  height: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 120px;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.head-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 90px;
+  border: 5px solid #000000;
+  border-radius: 30px;
+}
+.head-logo h2 {
+  font-family: "Jokerman";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.head-menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 800px;
+  height: 90px;
+}
+.head-menu p {
+  font-family: "Comic Sans MS";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.25em;
+  color: white;
+}
+.head-menu a {
+  text-decoration: none;
+  width: 190px;
+}
+
+.sect {
+  margin: 0 auto;
+  width: 1280px;
+  height: 670px;
+}
+
+#fon-1 {
+  background-size: cover;
+  background-image: url(../logo/image\ 1.png);
+}
+
+#fon-2 {
+  background-size: cover;
+  background-image: url(../logo/image\ 2.png);
+}
+
+#fon-3 {
+  background-size: cover;
+  background-image: url(../logo/image\ 4.png);
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 80px 70px;
+}
+
+.cont-block {
+  width: 430px;
+  height: 540px;
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.src-block {
+  width: 640px;
+  height: 540px;
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 0.5);
+}
