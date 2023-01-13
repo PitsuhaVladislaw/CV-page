@@ -74,17 +74,17 @@ body {
 
 #fon-1 {
   background-size: cover;
-  background-image: url(../logo/image\ 1.png);
+  background-image: url(../photo/logo/image\ 1.png);
 }
 
 #fon-2 {
   background-size: cover;
-  background-image: url(../logo/image\ 2.png);
+  background-image: url(../photo/logo/image\ 2.png);
 }
 
 #fon-3 {
   background-size: cover;
-  background-image: url(../logo/image\ 4.png);
+  background-image: url(../photo/logo/image\ 4.png);
 }
 
 .contact {
