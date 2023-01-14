@@ -1,7 +1,4 @@
-* {
-  border: 1px solid red;
-}
-
+html,
 body {
   margin: 0;
 }
@@ -87,6 +84,177 @@ body {
   background-image: url(../photo/logo/image\ 4.png);
 }
 
+.description {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.desc-cards {
+  width: 375px;
+  height: 550px;
+  display: grid;
+  gap: 25px;
+}
+.desc-cards h1 {
+  width: 300px;
+  height: 100px;
+  font-family: "Comic Sans MS";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.3em;
+  color: #000000;
+  margin: 0 auto;
+  text-align: center;
+}
+.desc-cards img {
+  width: 335px;
+  height: 415px;
+  border: 3px solid #217E25;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
+.desc-text {
+  margin-left: 15px;
+  width: 750px;
+  height: 550px;
+  justify-content: center;
+}
+.desc-text p {
+  font-family: "Comic Sans MS";
+  text-align: justify;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-indent: 60px;
+  color: #000000;
+  margin: 0;
+}
+
+.edu-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 80px;
+}
+
+.sch-block {
+  width: auto;
+  height: 290px;
+}
+
+.uni-block {
+  width: auto;
+  height: auto;
+  margin-top: 10px;
+}
+
+.block-h {
+  height: 60px;
+  width: auto;
+  border: 3px solid #000000;
+  border-radius: 40px 40px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.block-h h2 {
+  font-family: "Comic Sans MS";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  color: #000000;
+}
+
+.infa-blck {
+  display: flex;
+  width: 560px;
+  border: 1px solid #000000;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.block-map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+  width: 220px;
+}
+.block-map iframe {
+  height: 210px;
+  width: 210px;
+}
+
+.block-text {
+  display: flex;
+  align-items: center;
+  width: 330px;
+  height: 220px;
+  justify-content: center;
+}
+.block-text p {
+  font-family: "Comic Sans MS";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: justify;
+  color: #000000;
+  width: 306px;
+  height: 206px;
+  padding: 12px;
+}
+
+.skl-block {
+  width: 520px;
+  height: 590px;
+}
+
+.skl-h {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 60px;
+  border: 3px solid #000000;
+  border-radius: 40px 40px 0px 0px;
+}
+.skl-h h2 {
+  font-family: "Comic Sans MS";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  margin: 0;
+}
+
+.skl-text {
+  width: auto;
+  height: auto;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 0px 0px 30px 30px;
+  padding: 20px;
+}
+.skl-text p {
+  font-family: "Comic Sans MS";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: justify;
+  text-indent: 50px;
+  color: #000000;
+  margin: 0;
+}
+.skl-text ul {
+  position: relative;
+  bottom: 20px;
+}
+.skl-text ul li {
+  font-family: "Comic Sans MS";
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+
 .contact {
   display: flex;
   justify-content: space-between;
@@ -125,7 +293,11 @@ body {
 }
 
 .cont-list {
+  padding: 10px 10px 15px;
   border-top: 5px solid #000000;
+  display: grid;
+  grid-template-columns: 75px auto;
+  gap: 10px 0px;
 }
 
 .src-h-text {
@@ -192,4 +364,4 @@ body {
   letter-spacing: 0.5em;
   font-variant: small-caps;
   margin: 0;
-}
+}/*# sourceMappingURL=style.css.map */
