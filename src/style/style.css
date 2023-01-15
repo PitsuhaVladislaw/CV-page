@@ -673,8 +673,8 @@
   }
 
   .cont-block {
-    width: 280px;
-    height: 505px;
+    width: 310px;
+    height: auto;
     border-radius: 40px;
     background: rgba(255, 255, 255, 0.5);
     margin: 28px auto;
@@ -696,7 +696,7 @@
     font-family: "Comic Sans MS";
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 27.87px;
     letter-spacing: 0.7em;
     color: #000000;
@@ -707,7 +707,7 @@
     border-top: 5px solid #000000;
     display: grid;
     grid-template-columns: 50px auto;
-    gap: 10px 0px;
+    gap: 30px 0px;
   }
 
   .src-h-text {
@@ -748,15 +748,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border: 2px solid #000000;
     border-radius: 20px;
   }
 
   .list-obj-img img {
-    width: 45px;
-    height: 45px;
+    width: 55px;
+    height: 55px;
   }
 
   .list-obj-h {
@@ -771,10 +771,10 @@
     font-family: "Comic Sans MS";
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 22.3px;
     text-align: center;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.6em;
     font-variant: small-caps;
     margin: 0;
   }
