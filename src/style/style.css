@@ -385,10 +385,14 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 1280px) {
+@media (min-width: 320px) and (max-width: 1279px) { /*///////////////////////////////////////////////////////////***/
   html,
   body {
     margin: 0;
+  }
+
+  * {
+    border: 1px solid green;
   }
 
   .header-fon {
@@ -405,7 +409,7 @@
     align-items: center;
     justify-content: space-around;
     height: 117px;
-    width: 320px;
+    width: auto;
     margin: 0 auto;
   }
 
@@ -426,6 +430,7 @@
     line-height: 45.37px;
     color: #000000;
     margin: 0;
+    letter-spacing: 2px
 }
 
   .head-menu {
@@ -447,10 +452,22 @@
     width: 190px;
   }
 
-  .sect {
+  .sect-1 {
     margin: 0 auto;
-    width: 320px;
-    height: 670px;
+    width: auto;
+    height: 1133px;
+  }
+
+  .sect-2 {
+    margin: 0 auto;
+    width: auto;
+    height: 1133px;
+  }
+
+  .sect-3 {
+    margin: 0 auto;
+    width: auto;
+    height: auto;
   }
 
   .fon {
@@ -473,53 +490,51 @@
   }
 
   .description {
-    display: flex;
-    justify-content: center;
-    margin-top: 70px;
+    margin-top: 25px;
   }
 
   .desc-cards {
-    width: 375px;
-    height: 550px;
+    width: 274px;
+    height: auto;
     display: grid;
-    gap: 25px;
+    margin: 0 auto;
   }
 
   .desc-cards h1 {
-    width: 300px;
-    height: 100px;
+    width: auto;
+    height: auto;
     font-family: "Comic Sans MS";
     font-weight: 700;
-    font-size: 21px;
+    font-size: 25px;
     line-height: 29.26px;
-    letter-spacing: 0.25em;
+    letter-spacing: 0.45em;
     color: #000000;
     margin: 0 auto;
     text-align: center;
   }
 
   .desc-cards img {
-    width: 335px;
-    height: 415px;
+    width: 250px;
+    height: 297px;
     border: 3px solid #217E25;
     border-radius: 50px;
     margin: 0 auto;
   }
 
   .desc-text {
-    margin-left: 15px;
-    width: 750px;
-    height: 550px;
-    justify-content: center;
+    margin: 0 auto;
+    width: 274px;
+    height: auto;
+    margin-top: 30px;
   }
 
   .desc-text p {
     font-family: "Comic Sans MS";
     text-align: justify;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
-    text-indent: 60px;
+    font-size: 16px;
+    line-height: 22.3px;
+    text-indent: 30px;
     color: #000000;
     margin: 0;
   }
@@ -654,27 +669,23 @@
   }
 
   .contact {
-    display: flex;
     justify-content: space-between;
-    padding: 60px 80px 70px;
   }
 
   .cont-block {
-    width: 430px;
-    height: 540px;
+    width: 280px;
+    height: 505px;
     border-radius: 40px;
     background: rgba(255, 255, 255, 0.5);
+    margin: 28px auto;
   }
 
   .src-block {
-    width: 640px;
-    height: 540px;
-    border-radius: 40px;
-    background: rgba(255, 255, 255, 0.5);
+    display: none;
   }
 
   .cont-h-cont {
-    width: 430px;
+    width: auto;
     height: 70px;
     display: flex;
     align-items: center;
@@ -685,9 +696,9 @@
     font-family: "Comic Sans MS";
     font-style: normal;
     font-weight: 700;
-    font-size: 35px;
-    line-height: 49px;
-    letter-spacing: 0.4em;
+    font-size: 20px;
+    line-height: 27.87px;
+    letter-spacing: 0.7em;
     color: #000000;
   }
 
@@ -695,7 +706,7 @@
     padding: 10px 10px 15px;
     border-top: 5px solid #000000;
     display: grid;
-    grid-template-columns: 75px auto;
+    grid-template-columns: 50px auto;
     gap: 10px 0px;
   }
 
@@ -728,7 +739,7 @@
 
   .list-obj {
     display: flex;
-    width: 410px;
+    width: auto;
     height: 75px;
     margin: 10px 10px 0px;
   }
@@ -737,15 +748,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     border: 2px solid #000000;
     border-radius: 20px;
   }
 
   .list-obj-img img {
-    width: 70px;
-    height: 70px;
+    width: 45px;
+    height: 45px;
   }
 
   .list-obj-h {
@@ -760,8 +771,8 @@
     font-family: "Comic Sans MS";
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 16px;
+    line-height: 22.3px;
     text-align: center;
     letter-spacing: 0.5em;
     font-variant: small-caps;
