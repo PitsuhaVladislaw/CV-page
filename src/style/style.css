@@ -240,7 +240,7 @@
 
   .skl-text {
     width: auto;
-    height: auto;
+    height: 490px;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 0px 0px 30px 30px;
     padding: 20px;
@@ -257,16 +257,16 @@
     margin: 0;
   }
 
-  .skl-text ul {
-    position: relative;
-    bottom: 20px;
-  }
-
   .skl-text ul li {
     font-family: "Comic Sans MS";
     font-weight: 400;
-    font-size: 20px;
+    font-size: 17px;
+    line-height: 18.12px;
+    text-align: justify;
+    text-indent: 50px;
     color: #000000;
+    margin: 0;
+    padding-bottom: 10px;
   }
 
   .contact {
@@ -457,7 +457,7 @@
   .sect-2 {
     margin: 0 auto;
     width: auto;
-    height: 970px;
+    height: 940px;
   }
 
   .sect-3 {
@@ -638,7 +638,7 @@
     height: auto;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 0px 0px 30px 30px;
-    padding: 20px 10px 0px;
+    padding: 20px 10px 10px;
   }
 
   .skl-text p {
@@ -652,16 +652,15 @@
     margin: 0;
   }
 
-  .skl-text ul {
-    position: relative;
-    bottom: 16px;
-  }
-
   .skl-text ul li {
     font-family: "Comic Sans MS";
     font-weight: 400;
     font-size: 17px;
+    line-height: 18.12px;
+    text-align: justify;
+    text-indent: 50px;
     color: #000000;
+    margin: 0;
   }
 
   .contact {
