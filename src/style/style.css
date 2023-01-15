@@ -257,16 +257,15 @@
     margin: 0;
   }
 
-  .skl-text ul {
-    position: relative;
-    bottom: 20px;
-  }
-
   .skl-text ul li {
     font-family: "Comic Sans MS";
     font-weight: 400;
-    font-size: 20px;
+    font-size: 17px;
+    line-height: 18.12px;
+    text-align: justify;
+    text-indent: 50px;
     color: #000000;
+    margin: 0;
   }
 
   .contact {
@@ -457,7 +456,7 @@
   .sect-2 {
     margin: 0 auto;
     width: auto;
-    height: 970px;
+    height: 940px;
   }
 
   .sect-3 {
@@ -652,16 +651,15 @@
     margin: 0;
   }
 
-  .skl-text ul {
-    position: relative;
-    bottom: 16px;
-  }
-
   .skl-text ul li {
     font-family: "Comic Sans MS";
     font-weight: 400;
     font-size: 17px;
+    line-height: 18.12px;
+    text-align: justify;
+    text-indent: 50px;
     color: #000000;
+    margin: 0;
   }
 
   .contact {
