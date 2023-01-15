@@ -240,7 +240,7 @@
 
   .skl-text {
     width: auto;
-    height: auto;
+    height: 490px;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 0px 0px 30px 30px;
     padding: 20px;
@@ -637,7 +637,7 @@
     height: auto;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 0px 0px 30px 30px;
-    padding: 20px 10px 0px;
+    padding: 20px 10px 10px;
   }
 
   .skl-text p {
