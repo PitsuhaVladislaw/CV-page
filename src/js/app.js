@@ -14,4 +14,4 @@ setTimeout(function workButton() {
     }
 }, 500);
 
-workButton()
+workButton();

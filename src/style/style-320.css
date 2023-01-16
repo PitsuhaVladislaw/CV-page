@@ -409,6 +409,7 @@
     }
 
     #src-screen {
+        display: block;
         width: 600px;
         height: 430px;
         margin: 0 20px 40px;
