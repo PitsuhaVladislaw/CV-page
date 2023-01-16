@@ -1,0 +1,461 @@
+@media (min-width: 320px) and (max-width: 1279px) {
+    html,
+    body {
+        margin: 0;
+    }
+
+    .header-fon {
+        background: rgb(14, 107, 45);
+        width: auto;
+        height: auto;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+
+    .head {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 117px;
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .head-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 168px;
+        height: 60px;
+        border: 5px solid #000000;
+        border-radius: 30px;
+    }
+
+    .head-logo h2 {
+        font-family: "Jokerman";
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 45.37px;
+        color: #000000;
+        margin: 0;
+        letter-spacing: 2px
+    }
+
+    .head-menu {
+        position: fixed;
+        display: grid;
+        grid-template-columns: 210px;
+        width: 210px;
+        height: 226px;
+        background: #0e6b2d;
+        border-radius: 0px 0px 30px 80px;
+        top: 100px;
+        right: -215px;
+        transition: 0.1s;
+    }
+
+    .head-menu_open {
+        right: 0px;
+    }
+
+    .head-menu p {
+        font-family: "Comic Sans MS";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22.3px;
+        text-align: center;
+        letter-spacing: 0.25em;
+        color: white;
+    }
+
+    .head-menu a {
+        text-decoration: none;
+        width: auto;
+        margin: 0;
+    }
+
+    .sect-1 {
+        margin: 0 auto;
+        width: auto;
+        height: 1150px;
+    }
+
+    .sect-2 {
+        margin: 0 auto;
+        width: auto;
+        height: 940px;
+    }
+
+    .sect-3 {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+    }
+
+    .sect-menu {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-btn {
+        position: relative;
+        display: block;
+        width: 60px;
+        height: 60px;
+        background-color: rgb(14, 107, 45);
+    }
+
+    .menu-btn span,
+    .menu-btn span::before,
+    .menu-btn span::after {
+        position: absolute;
+        bottom: 25px;
+        left: 5px;
+        height: 10px;
+        width: 50px;
+        background: #000000;
+    }
+
+    .menu-btn span::before,
+    .menu-btn span::after {
+        content: '';
+        display: block;
+        transition: 0.1s;
+    }
+
+    .menu-btn span::before {
+        transform: translateY(5px);
+        left: 0px;
+    }
+
+    .menu-btn span::after {
+        transform: translateY(45px);
+        left: 0px;
+    }
+
+    .menu-btn_active span {
+        height: 0;
+    }
+
+    .menu-btn_active span::before {
+        transform: rotate(-45deg);
+        bottom: 0px;
+    }
+
+    .menu-btn_active span::after {
+        transform: rotate(45deg);
+        bottom: 0px;
+    }
+
+    .fon {
+        border-top: 5px solid rgb(14, 107, 45);
+    }
+
+    .fon-1 {
+        background-size: cover;
+        background-image: url(../photo/logo/image\ 1.png);
+    }
+
+    .fon-2 {
+        background-size: cover;
+        background-image: url(../photo/logo/image\ 2-.png);
+    }
+
+    .fon-3 {
+        background-size: cover;
+        background-image: url(../photo/logo/image\ 4.png);
+    }
+
+    .description {
+        margin-top: 25px;
+    }
+
+    .desc-cards {
+        width: 300px;
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+    }
+
+    .desc-cards h1 {
+        width: auto;
+        height: auto;
+        font-family: "Comic Sans MS";
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 29.26px;
+        letter-spacing: 0.45em;
+        color: #000000;
+        margin: 0 auto 30px;
+        text-align: center;
+    }
+
+    .desc-cards img {
+        width: 270px;
+        height: 317px;
+        border: 3px solid #217E25;
+        border-radius: 50px;
+        margin: 0 auto;
+    }
+
+    .desc-text {
+        margin: 0 auto;
+        width: 300px;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .desc-text p {
+        font-family: "Comic Sans MS";
+        text-align: justify;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22.3px;
+        text-indent: 30px;
+        color: #000000;
+        margin: 0;
+    }
+
+    .edu-container {
+        margin: 20px auto 50px;
+        width: 310px;
+    }
+
+    .sch-block {
+        width: auto;
+        height: auto;
+    }
+
+    .uni-block {
+        width: auto;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .block-h {
+        height: 60px;
+        width: auto;
+        border: 3px solid #000000;
+        border-radius: 40px 40px 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .block-h h2 {
+        font-family: "Comic Sans MS";
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22.3px;
+        color: #000000;
+        text-align: center;
+    }
+
+    .infa-blck {
+        display: flex;
+        width: auto;
+        border: 1px solid #000000;
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    .block-map {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 110px;
+    }
+
+    .block-map iframe {
+        height: 125px;
+        width: 100px;
+    }
+
+    .block-text {
+        display: flex;
+        align-items: center;
+        width: auto;
+        height: auto;
+        justify-content: center;
+    }
+
+    .block-text p {
+        font-family: "Comic Sans MS";
+        font-weight: 400;
+        font-size: 13.5px;
+        line-height: 17.72px;
+        text-align: right;
+        color: #000000;
+        width: 175px;
+        height: 123px;
+    }
+
+    .skl-block {
+        width: auto;
+        height: auto;
+        margin-top: 35px;
+    }
+
+    .skl-h {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: 60px;
+        border: 3px solid #000000;
+        border-radius: 40px 40px 0px 0px;
+    }
+
+    .skl-h h2 {
+        font-family: "Comic Sans MS";
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22.3px;
+        margin: 0;
+    }
+
+    .skl-text {
+        width: auto;
+        height: auto;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 0px 0px 30px 30px;
+        padding: 20px 10px 10px;
+    }
+
+    .skl-text p {
+        font-family: "Comic Sans MS";
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 18.12px;
+        text-align: justify;
+        text-indent: 50px;
+        color: #000000;
+        margin: 0;
+    }
+
+    .skl-text ul li {
+        font-family: "Comic Sans MS";
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 18.12px;
+        text-align: justify;
+        text-indent: 50px;
+        color: #000000;
+        margin: 0;
+    }
+
+    .contact {
+        justify-content: space-between;
+    }
+
+    .cont-block {
+        width: 310px;
+        height: auto;
+        border-radius: 40px;
+        background: rgba(255, 255, 255, 0.5);
+        margin: 28px auto 0px;
+    }
+
+    .src-block {
+        display: none;
+    }
+
+    .cont-h-cont {
+        width: auto;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cont-h-cont h3 {
+        font-family: "Comic Sans MS";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 27.87px;
+        letter-spacing: 0.7em;
+        color: #000000;
+    }
+
+    .cont-list {
+        padding: 10px 10px 15px;
+        border-top: 5px solid #000000;
+        display: grid;
+        grid-template-columns: 50px auto;
+        gap: 30px 0px;
+    }
+
+    .src-h-text {
+        width: 640px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .src-h-text h3 {
+        font-family: "Comic Sans MS";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 49px;
+        letter-spacing: 0.9em;
+        color: #000000;
+    }
+
+    #src-screen {
+        width: 600px;
+        height: 430px;
+        margin: 0 20px 40px;
+        border-width: 4px 1px 1px 1px;
+        border-style: solid;
+        border-color: #000000;
+    }
+
+    .list-obj {
+        display: flex;
+        width: auto;
+        height: 75px;
+        margin: 10px 10px 0px;
+    }
+
+    .list-obj-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        border: 2px solid #000000;
+        border-radius: 20px;
+    }
+
+    .list-obj-img img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .list-obj-h {
+        display: flex;
+        height: auto;
+        width: auto;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .list-obj-h h4 {
+        font-family: "Comic Sans MS";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22.3px;
+        text-align: center;
+        letter-spacing: 0.6em;
+        font-variant: small-caps;
+        margin: 0;
+    }
+}
