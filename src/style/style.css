@@ -63,27 +63,39 @@
     width: 190px;
   }
 
+  .head-menu a:hover {
+    border-width: 0px 3px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    font-style: oblique;
+    background: #70809052;
+  }
+
   .sect {
     margin: 0 auto;
     width: 1280px;
     height: 670px;
   }
 
+  .sect-menu {
+    display: none;
+  }
+
   .fon {
     border-top: 5px solid rgb(14, 107, 45);
   }
 
-  #fon-1 {
+  .fon-1 {
     background-size: cover;
     background-image: url(../photo/logo/image\ 1.png);
   }
 
-  #fon-2 {
+  .fon-2 {
     background-size: cover;
     background-image: url(../photo/logo/image\ 2.png);
   }
 
-  #fon-3 {
+  .fon-3 {
     background-size: cover;
     background-image: url(../photo/logo/image\ 4.png);
   }
@@ -233,7 +245,7 @@
   .skl-h h2 {
     font-family: "Comic Sans MS";
     font-weight: 700;
-    font-size: 16px;
+    font-size: 30px;
     line-height: 22.3px;
     margin: 0;
   }
@@ -466,21 +478,64 @@
     height: auto;
   }
 
+  .sect-menu {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+  }
+
+  .menu-btn {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(14, 107, 45);
+  }
+
+  .menu-btn span,
+  .menu-btn span::before,
+  .menu-btn span::after {
+    position: absolute;
+    bottom: 25px;
+    left: 5px;
+    height: 10px;
+    width: 50px;
+    background: #000000;
+  }
+
+  .menu-btn span::before,
+  .menu-btn span::after {
+    content: '';
+  }
+
+  .menu-btn span::before {
+    transform: translateY(5px);
+    left: 0px;
+  }
+
+  .menu-btn span::after {
+    transform: translateY(45px);
+    left: 0px;
+  }
+
   .fon {
     border-top: 5px solid rgb(14, 107, 45);
   }
 
-  #fon-1 {
+  .fon-1 {
     background-size: cover;
     background-image: url(../photo/logo/image\ 1.png);
   }
 
-  #fon-2 {
+  .fon-2 {
     background-size: cover;
-    background-image: url(../photo/logo/image\ 2.png);
+    background-image: url(../photo/logo/image\ 2-.png);
   }
 
-  #fon-3 {
+  .fon-3 {
     background-size: cover;
     background-image: url(../photo/logo/image\ 4.png);
   }
