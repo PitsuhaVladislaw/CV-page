@@ -4,8 +4,14 @@
         margin: 0;
     }
 
+    :root {
+        --fon--background: rgb(14, 107, 45);
+        --text-color: #000000;
+        --set-size: 30px;
+    }
+
     .header-fon {
-        background: rgb(14, 107, 45);
+        background: var(--fon--background);
         width: auto;
         height: auto;
         position: -webkit-sticky;
@@ -17,7 +23,7 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        height: 117px;
+        height: 80px;
         width: auto;
         margin: 0 auto;
     }
@@ -28,16 +34,16 @@
         align-items: center;
         width: 168px;
         height: 60px;
-        border: 5px solid #000000;
-        border-radius: 30px;
+        border: 5px solid var(--text-color);
+        border-radius: var(--set-size);
     }
 
     .head-logo h2 {
         font-family: "Jokerman";
         font-weight: 400;
-        font-size: 30px;
+        font-size: var(--set-size);
         line-height: 45.37px;
-        color: #000000;
+        color: var(--text-color);
         margin: 0;
         letter-spacing: 2px
     }
@@ -49,14 +55,15 @@
         width: 210px;
         height: 226px;
         background: #0e6b2d;
-        border-radius: 0px 0px 30px 80px;
-        top: 100px;
+        border-radius: 0px 0px 0px 80px;
+        top: 80px;
         right: -215px;
-        transition: 0.1s;
+        transition: 1s;
     }
 
     .head-menu_open {
         right: 0px;
+        top: 80px;
     }
 
     .head-menu p {
@@ -106,7 +113,7 @@
         display: block;
         width: 60px;
         height: 60px;
-        background-color: rgb(14, 107, 45);
+        background-color: var(--fon--background);
     }
 
     .menu-btn span,
@@ -117,7 +124,7 @@
         left: 5px;
         height: 10px;
         width: 50px;
-        background: #000000;
+        background: var(--text-color);
     }
 
     .menu-btn span::before,
@@ -152,7 +159,7 @@
     }
 
     .fon {
-        border-top: 5px solid rgb(14, 107, 45);
+        border-top: 5px solid var(--fon--background);
     }
 
     .fon-1 {
@@ -186,17 +193,17 @@
         height: auto;
         font-family: "Comic Sans MS";
         font-weight: 700;
-        font-size: 30px;
+        font-size: var(--set-size);
         line-height: 29.26px;
         letter-spacing: 0.45em;
-        color: #000000;
+        color: var(--text-color);
         margin: 0 auto 30px;
         text-align: center;
     }
 
     .desc-cards img {
-        width: 270px;
-        height: 317px;
+        width: 260px;
+        height: 330px;
         border: 3px solid #217E25;
         border-radius: 50px;
         margin: 0 auto;
@@ -206,7 +213,7 @@
         margin: 0 auto;
         width: 300px;
         height: auto;
-        margin-top: 30px;
+        margin-top: var(--set-size);
     }
 
     .desc-text p {
@@ -215,8 +222,8 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 22.3px;
-        text-indent: 30px;
-        color: #000000;
+        text-indent: var(--set-size);
+        color: var(--text-color);
         margin: 0;
     }
 
@@ -239,7 +246,7 @@
     .block-h {
         height: 60px;
         width: auto;
-        border: 3px solid #000000;
+        border: 3px solid var(--text-color);
         border-radius: 40px 40px 0px 0px;
         display: flex;
         align-items: center;
@@ -251,14 +258,14 @@
         font-weight: 700;
         font-size: 16px;
         line-height: 22.3px;
-        color: #000000;
+        color: var(--text-color);
         text-align: center;
     }
 
     .infa-blck {
         display: flex;
         width: auto;
-        border: 1px solid #000000;
+        border: 1px solid var(--text-color);
         background: rgba(255, 255, 255, 0.5);
     }
 
@@ -289,7 +296,7 @@
         font-size: 13.5px;
         line-height: 17.72px;
         text-align: right;
-        color: #000000;
+        color: var(--text-color);
         width: 175px;
         height: 123px;
     }
@@ -306,7 +313,7 @@
         justify-content: center;
         width: auto;
         height: 60px;
-        border: 3px solid #000000;
+        border: 3px solid var(--text-color);
         border-radius: 40px 40px 0px 0px;
     }
 
@@ -333,7 +340,7 @@
         line-height: 18.12px;
         text-align: justify;
         text-indent: 50px;
-        color: #000000;
+        color: var(--text-color);
         margin: 0;
     }
 
@@ -344,7 +351,7 @@
         line-height: 18.12px;
         text-align: justify;
         text-indent: 50px;
-        color: #000000;
+        color: var(--text-color);
         margin: 0;
     }
 
@@ -379,12 +386,12 @@
         font-size: 25px;
         line-height: 27.87px;
         letter-spacing: 0.7em;
-        color: #000000;
+        color: var(--text-color);
     }
 
     .cont-list {
         padding: 10px 10px 15px;
-        border-top: 5px solid #000000;
+        border-top: 5px solid var(--text-color);
         display: grid;
         grid-template-columns: 50px auto;
         gap: 30px 0px;
@@ -405,16 +412,17 @@
         font-size: 35px;
         line-height: 49px;
         letter-spacing: 0.9em;
-        color: #000000;
+        color: var(--text-color);
     }
 
     #src-screen {
+        display: block;
         width: 600px;
         height: 430px;
         margin: 0 20px 40px;
         border-width: 4px 1px 1px 1px;
         border-style: solid;
-        border-color: #000000;
+        border-color: var(--text-color);
     }
 
     .list-obj {
@@ -430,7 +438,7 @@
         justify-content: center;
         width: 60px;
         height: 60px;
-        border: 2px solid #000000;
+        border: 2px solid var(--text-color);
         border-radius: 20px;
     }
 
@@ -457,5 +465,10 @@
         letter-spacing: 0.6em;
         font-variant: small-caps;
         margin: 0;
+    }
+
+    .a-text {
+        text-decoration: none;
+        color: var(--text-color)
     }
 }
